@@ -878,7 +878,6 @@ namespace IndicadoresCore.Models
                                 lista_mes.coste_actual = camopct;
 
 
-
                                 SqlCommand sqlCmd1 = new SqlCommand("[MargenBrutoRegionAnual_x_ciudad]", conexion1);
                                 sqlCmd1.CommandType = CommandType.StoredProcedure;
                                 sqlCmd1.CommandTimeout = 0;
